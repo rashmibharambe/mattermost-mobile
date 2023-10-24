@@ -21,3 +21,5 @@ jobs:
         run: npm run i18n-extract
       - name: git status
         run: git status
+      - name: git diff
+        run: git diff assets/base/i18n/en.json
